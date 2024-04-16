@@ -8,8 +8,8 @@ import (
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 
-	"github.com/karlssonerik/go-service-doc/core"
-	"github.com/karlssonerik/go-service-doc/utils"
+	"github.com/SKF/go-service-doc/core"
+	"github.com/SKF/go-service-doc/utils"
 )
 
 func (p *Parser) findStaticFiles() {

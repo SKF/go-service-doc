@@ -1,7 +1,7 @@
-[![Release](https://img.shields.io/github/v/release/karlssonerik/go-service-doc)](https://github.com/karlssonerik/go-service-doc/releases/latest)
-[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fkarlssonerik%2Fgo-service-doc%2Fbadge%3Fref%3Dmain&style=flat)](https://actions-badge.atrox.dev/karlssonerik/go-service-doc/goto?ref=main)
-[![Go Report Card](https://goreportcard.com/badge/github.com/karlssonerik/go-service-doc)](https://goreportcard.com/report/github.com/karlssonerik/go-service-doc)
-[![Coverage Status](https://coveralls.io/repos/github/karlssonerik/go-service-doc/badge.svg?branch=main)](https://coveralls.io/github/karlssonerik/go-service-doc?branch=main)
+[![Release](https://img.shields.io/github/v/release/SKF/go-service-doc)](https://github.com/SKF/go-service-doc/releases/latest)
+[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2FSKF%2Fgo-service-doc%2Fbadge%3Fref%3Dmain&style=flat)](https://actions-badge.atrox.dev/SKF/go-service-doc/goto?ref=main)
+[![Go Report Card](https://goreportcard.com/badge/github.com/SKF/go-service-doc)](https://goreportcard.com/report/github.com/SKF/go-service-doc)
+[![Coverage Status](https://coveralls.io/repos/github/SKF/go-service-doc/badge.svg?branch=main)](https://coveralls.io/github/SKF/go-service-doc?branch=main)
 
 # go-service-doc
 
@@ -17,13 +17,12 @@ go-service-doc also supports embedding static files, [more info](#embedding-imag
 You can find a list of all features [here](#features)
 
 go-service-doc will generate both HTML files to be deployed standalone and a `go` handler, which could be used in your service.
-Here you can find a [deployed example](https://karlssonerik.github.io/go-service-doc) of the generated HTML files.
 
 ## Usage
 
 ### Install
 
-> go install -u github.com/karlssonerik/go-service-doc
+> go install -u github.com/SKF/go-service-doc
 
 ### Run
 
@@ -64,7 +63,7 @@ import (
 	"log"
 	"net/http"
 
-	service_docs "github.com/karlssonerik/go-service-doc/cmd/example/docs/generated"
+	service_docs "github.com/SKF/go-service-doc/cmd/example/docs/generated"
 )
 
 const port = "8080"

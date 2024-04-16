@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	service_docs "github.com/karlssonerik/go-service-doc/cmd/example/docs/generated"
+	service_docs "github.com/SKF/go-service-doc/cmd/example/docs/generated"
 )
 
 const port = "8080"

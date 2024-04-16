@@ -6,7 +6,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/karlssonerik/go-service-doc/core"
+	"github.com/SKF/go-service-doc/core"
 )
 
 type Gen struct {
@@ -107,7 +107,7 @@ const htmlPageTemplate = `<!DOCTYPE html>
 <html lang=en>
 <head>
   <title>{{.API}}</title>
-  <meta name='generator' content='github.com/karlssonerik/go-service-doc'>
+  <meta name='generator' content='github.com/SKF/go-service-doc'>
   <link rel="stylesheet" href="{{.Basepath}}/markdown.css">
   {{if .FaviconHref}}<link rel="icon" href="{{.FaviconHref}}">{{end}}
 </head>

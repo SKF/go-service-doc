@@ -1,4 +1,4 @@
-module github.com/karlssonerik/go-service-doc
+module github.com/SKF/go-service-doc
 
 go 1.22
 

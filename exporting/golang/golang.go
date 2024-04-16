@@ -7,10 +7,10 @@ import (
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 
-	"github.com/karlssonerik/go-service-doc/core"
-	go_gen "github.com/karlssonerik/go-service-doc/go-pkg-gen"
-	html_gen "github.com/karlssonerik/go-service-doc/html-gen"
-	"github.com/karlssonerik/go-service-doc/utils"
+	"github.com/SKF/go-service-doc/core"
+	go_gen "github.com/SKF/go-service-doc/go-pkg-gen"
+	html_gen "github.com/SKF/go-service-doc/html-gen"
+	"github.com/SKF/go-service-doc/utils"
 )
 
 type GoExporter struct {
